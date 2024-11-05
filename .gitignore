@@ -9,6 +9,9 @@ ENV/
 env/
 .env
 
+easysh.egg-info/
+build/
+
 # Configuration files
 *.config
 *.ini
