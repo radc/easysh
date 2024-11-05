@@ -7,7 +7,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name='easysh',
-    version='1.0.0',
+    version='1.1.0',
     author='Ruhan Conceicao',
     author_email='ruhanconceicao@gmail.com',
     description='Translate natural language into shell commands using OpenAI API',
@@ -22,7 +22,7 @@ setup(
     ],
     python_requires='>=3.6',
     install_requires=[
-        'openai>=0.27.0',
+        'openai>=1.0.0',
     ],
     entry_points={
         'console_scripts': [
